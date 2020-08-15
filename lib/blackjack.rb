@@ -71,7 +71,7 @@ def runner
     display_card_total
  
 
-end
+  end
 end_game
   
 end
