@@ -43,6 +43,9 @@ def hit?(card_total)
     card_total
   else
     card_total + deal_card
+  else
+    invalid_command
+    input
   end
   
 end
