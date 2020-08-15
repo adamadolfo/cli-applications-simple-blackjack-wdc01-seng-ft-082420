@@ -64,8 +64,8 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
-  until conditional [do]
+  card_sum = initial_round
+  until card_sum > 21 [do]
   hit?
   display_card_total
  
