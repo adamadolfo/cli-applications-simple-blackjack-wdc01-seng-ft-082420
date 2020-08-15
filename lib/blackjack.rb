@@ -65,7 +65,11 @@ def runner
   # code runner here
   welcome
   initial_round
-  
+  until conditional [do]
+
+ # code to be executed
+
+end
   hit?
   display_card_total
   
