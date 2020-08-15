@@ -68,7 +68,7 @@ def runner
   cards = 2
   until card_sum > 21 do
     cards = hit?(cards)
-    display_card_total
+    display_card_total(cards)
  
 
   end
