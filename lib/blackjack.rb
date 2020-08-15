@@ -66,7 +66,8 @@ def runner
   welcome
   initial_round
   until conditional [do]
-
+  hit?
+  display_card_total
  
 
 end
